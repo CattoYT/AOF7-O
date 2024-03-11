@@ -1,0 +1,206 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				glow_item_frame = false
+				player = true
+				chicken = true
+				cow = true
+				zombie = true
+				skeleton = true
+				armor_stand = true
+				pig = true
+				glow_squid = true
+				sheep = true
+				bat = true
+				item = true
+				creeper = true
+				squid = true
+				horse = true
+				spider = true
+				enderman = true
+				tnt_minecart = true
+				bee = true
+				fox = true
+				experience_orb = true
+				drowned = true
+				witch = true
+				slime = true
+				stray = true
+				zombie_villager = true
+				arrow = true
+				salmon = true
+				axolotl = true
+				strider = true
+				piglin = true
+				zombified_piglin = true
+				piglin_brute = true
+				magma_cube = true
+				wither_skeleton = true
+				hoglin = true
+				tropical_fish = true
+				area_effect_cloud = true
+				cat = true
+				villager = true
+				item_frame = true
+				iron_golem = true
+				boat = true
+				blaze = true
+				allay = true
+				zoglin = true
+				small_fireball = true
+				ravager = true
+				pillager = true
+				eye_of_ender = true
+				dolphin = true
+				turtle = true
+				husk = true
+				cod = true
+				vindicator = true
+
+			[light_sources.settings.entities.artifacts]
+				mimic = true
+
+			[light_sources.settings.entities.graveyard]
+				skeleton_creeper = true
+				ghoul = true
+				corrupted_vindicator = true
+				corrupted_pillager = true
+				nightmare = true
+				acolyte = true
+				revenant = true
+
+			[light_sources.settings.entities.adventurez]
+				amethyst_golem = true
+				orc = true
+				blaze_guardian_shield = true
+				blaze_guardian = true
+				piglin_beast = true
+
+			[light_sources.settings.entities.naturalist]
+				snail = true
+				robin = true
+				snake = true
+				bear = true
+				butterfly = true
+				firefly = true
+				boar = true
+				sparrow = true
+				bass = true
+				coral_snake = true
+				canary = true
+				duck = true
+				elephant = true
+				rhino = true
+				lion = true
+
+			[light_sources.settings.entities.bewitchment]
+				raven = true
+				ghost = true
+				snake = true
+				hellhound = true
+				vampire = true
+
+			[light_sources.settings.entities.duckling]
+				duck = true
+				duck_egg = true
+
+			[light_sources.settings.entities.fishofthieves]
+				pondie = true
+				plentifin = true
+				ancientscale = true
+				wildsplash = true
+				devilfish = true
+
+			[light_sources.settings.entities.mooblooms]
+				azalea_moobloom = true
+				dripleaf_moobloom = true
+				wither_rose_moobloom = true
+				crimson_cluckshroom = true
+				crimson_mooshroom = true
+				warped_cluckshroom = true
+
+			[light_sources.settings.entities.creeperoverhaul]
+				cave_creeper = true
+				dripstone_creeper = true
+				hills_creeper = true
+				savannah_creeper = true
+				beach_creeper = true
+				ocean_creeper = true
+
+			[light_sources.settings.entities.lootr]
+				lootr_minecart = true
+
+			[light_sources.settings.entities.netherdepthsupgrade]
+				searing_cod = true
+				fortressgrouper = true
+				bonefish = true
+				glowdine = true
+				eyeball_fish = true
+				lava_pufferfish = true
+				wither_bonefish = true
+
+			[light_sources.settings.entities.create]
+				super_glue = true
+
+			[light_sources.settings.entities.ecologics]
+				squirrel = true
+				coconut_crab = true
+
+			[light_sources.settings.entities.endermanoverhaul]
+				cave_enderman = true
+				crimson_forest_enderman = true
+				nether_wastes_enderman = true
+				warped_forest_enderman = true
+
+			[light_sources.settings.entities.guardvillagers]
+				guard = true
+
+			[light_sources.settings.entities.invoke]
+				glaciermedium = true
+				glaciersmall = true
+				glacierlarge = true
+				glacierhuge = true
+
+			[light_sources.settings.entities.spell_engine]
+				spell_projectile = true
+
+			[light_sources.settings.entities.vinery]
+				mule = true
+
+			[light_sources.settings.entities.skeletalremains]
+				charredskeleton = true
+				sunkenskeleton = true
+
+			[light_sources.settings.entities.soulsweapons]
+				evil_forlorn = true
+				withered_demon = true
+
+			[light_sources.settings.entities.bygonenether]
+				piglin_hunter = true
+				wither_skeleton_horse = true
+
+			[light_sources.settings.entities.bloomingnature]
+				squirrel = true
+				pelican = true
+
